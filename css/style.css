@@ -1,0 +1,86 @@
+#heading1{
+    text-align: center;
+    color: coral;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.paragraph{
+    font-style: italic;
+}
+
+#division1{
+    background-color: rgba(124, 39, 55, 0.227);
+    color: rgb(50, 14, 207);
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#division1:hover {
+    background-color: lightblue;
+}
+
+#division1 button {
+    background-color: blue;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+#division1 button:hover {
+    background-color: green;
+}
+
+#mercedes {
+    display: flex;
+    margin: 20px;
+    
+}
+
+#image {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 100%
+}
+
+#main {
+    display: flex;
+}
+
+#top {
+    text-align: center;
+}
+
+.image1 {
+    display: block;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    color: darkblue;
+}
+
+.sub {
+    text-align: center;
+    background-color: rgb(156, 179, 232);
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(233, 236, 144);
+    color: whitesmoke;
+}
+
+.sub:hover {
+    background-color: limegreen;
+}
+button {
+    background-color: rgb(128, 128, 197);
+    border-radius: 5px;
+}

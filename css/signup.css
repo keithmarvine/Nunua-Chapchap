@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(204, 162, 244);
+}
+
+legend {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+    
+}
+
+form {
+    margin: auto;
+    
+    
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+#first {
+    background-color: rgb(61, 194, 194);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    
+
+    
+}
+
+#second {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: auto;
+   
+}
+
+.req {
+    text-align: left;
+}
+
+input[type=text], input[type=email], input[type=tel]{
+    display: block;
+    padding-right: 30px;
+    height: 30px;
+    width: 80%;
+    background-color: rgba(237, 235, 235, 0.949);
+    border-style: hidden;
+   
+
+}
+
+textarea {
+    display: block;
+    padding-right: 10px;
+    width: 85%;
+    ;
+}
+
+button {
+    background-color: rgb(115, 201, 219);
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border-style: hidden;
+
+    
+}
+

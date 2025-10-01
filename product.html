@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="icon" href="assets/product.png">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+    <style>
+        .mydiv{
+            height: 800px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <!-- buttons as links -->
+
+    <a href="index.html" class="btn btn-primary">Home</a>
+    <a href="service.html" class="btn btn-primary">Services</a>
+    <a href="signup.html" class="btn btn-danger">Signup</a>
+    <a href="location.html" class="btn btn-primary">Our Location</a>
+
+    <br><br>
+    <h1 class="text-center">Product Catalog</h1>
+    <table class="table table-bordered table-hover table-striped table-dark container mb-5">
+
+
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Product Quality</th>
+            <th>Product Quantity</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Wheat</td>
+            <td>Good</td>
+            <td>200 bags</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Rice</td>
+            <td>Good</td>
+            <td>250 bags</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+            <td>200 bags</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Salt</td>
+            <td>Good</td>
+            <td>300 bags</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Onions</td>
+            <td>Good</td>
+            <td>450 bags</td>
+        </tr>
+
+    </table>
+
+
+    <h1 class="text-center">Welcome Back!</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quos alias facere ipsa perferendis accusantium
+        expedita unde odit at ipsum ratione, rerum cum ex delectus repellat eaque sequi assumenda quam.
+    </p>
+
+    <div class="row">
+        <div class="col mydiv">
+            <h3>Our Location</h3>
+            <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31495.184388959082!2d36.8014623!3d-1.2714306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f172e2b30a483%3A0x24eee4c08364a0f3!2sNational%20Museum%20of%20Kenya!5e1!3m2!1sen!2ske!4v1758869093984!5m2!1sen!2ske"
+                width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col mydiv">
+            <h3 class="text-center">Contact Us</h3>
+            <form action="" class="me-5">
+                <div class="mb-2">
+                    <label for="firstname" class="form-label">First Name:</label>
+                    <input type="text" id="firstname" class="form-control" placeholder="Enter your First Name" required>
+                </div>
+
+                 <div class="mb-2">
+                    <label for="surname" class="form-label">Surname:</label>
+                    <input type="text" id="surname" class="form-control" placeholder="Enter your surname" required>
+                </div>
+
+                <div class="mb-2">
+                    <label for="email" class="form-label">Email Address:</label>
+                    <input type="email" id="email" class="form-control" placeholder="e.g xyz@gmail.com" required>
+                </div>
+
+                <div class="mb-2">
+                    <label for="message" class="form-label" >Message</label>
+                    <textarea name="" id="message" cols="40" rows="5" class="form-control"></textarea>
+                </div>
+
+                <button class="btn btn-success d-block mx-auto">Submit</button>
+              
+
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
